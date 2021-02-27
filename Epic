@@ -1,13 +1,1 @@
-local plr = game:GetService("Players").LocalPlayer
-local chr = plr.Character
-local root = chr:WaitForChild("HumanoidRootPart")
-local torso = chr:WaitForChild("UpperTorso")
-for i,v in next, getconnections(root.ChildAdded) do
-v:Disable()
-end
-for i,v in next, getconnections(torso.ChildAdded) do
-v:Disable()
-end
-for i,v in next, getconnections(root:GetPropertyChangedSignal("CFrame")) do
-v:Disable()
-end 
+https://link-to.net/221143/Polakya2
